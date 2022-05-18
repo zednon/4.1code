@@ -3,10 +3,10 @@
 }
 
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
-  --grey: #333;
+  --primary: #3767d8;
+  --secondary: #2f282e;
+  --tertiary: rgb(202, 222, 225);
+  --grey: rgb(140, 164, 210);
   font-size: 62.5%;
 }
 
@@ -46,7 +46,7 @@ form {
 
 form input {
   outline: none;
-  border: none;
+  border: dotted;
   padding: 12px;
   width: 100%;
   font-size: 2.2rem;
@@ -98,7 +98,7 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: rgb(196, 196, 196);
+  background: rgb(179, 168, 176);
   border-radius: 12px;
   border: 2px solid var(--grey);
 }
@@ -174,7 +174,7 @@ footer {
   width: 100%;
   max-width: 100%;
   margin: 0;
-  border: 2px solid var(--grey);
+  border: 2px dotted var(--grey);
   border-radius: 12px;
   -moz-appearance: none;
   -webkit-appearance: none;
